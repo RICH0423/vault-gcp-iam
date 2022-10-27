@@ -85,3 +85,9 @@ curl -X POST https://storage.googleapis.com/storage/v1/b?project=dascs-lab \
    -H 'Authorization: Bearer {TOKEN}' \
    -d '{"name":"rich-bucket-1234"}'
 ```
+
+## Reference
+- https://www.hashicorp.com/identity-based-security-and-low-trust-networks
+- https://developer.hashicorp.com/vault/docs/secrets/gcp#bindings
+- https://cloud.google.com/blog/products/identity-security/how-you-and-wepay-can-use-hashicorp-vault
+- https://kiosk-dot-codelabs-site.appspot.com/codelabs/hashicorp-vault-secrets-generate-service-account-credentials/index.html?index=..%2F..hashiconf-us-18#0
